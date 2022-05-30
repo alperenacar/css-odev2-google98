@@ -1,0 +1,173 @@
+body {
+    background-color: #E9ECEF;
+    font-size: 10px;
+    padding-top: 4rem;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    font-weight: 500;
+    padding: 0.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e9540d;
+}
+
+header ul li a {
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.about-maintag {
+    color: #e9540d;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-tag {
+    color: darkslategrey;
+    font-weight: 500;
+}
+
+.product-link {
+    text-decoration: underline;
+    color: darkslategrey;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e9540d;
+    text-decoration: none;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.urn-d-urun {
+    padding: 10px;
+    height: 100%;
+    background: white;
+    display: grid;
+}
+
+.urn-d-urun-img {
+    text-align: center;
+    border: 2px solid #F8F8F8;
+}
+
+.urn-d-urun-img a {
+    height: 41rem;
+    text-align: center;
+}
+
+.urn-d-urun-img img {
+    height: 100%;
+    width: auto;
+}
+
+.urn-d-urun-c {
+    font-size: 1.3rem;
+}
+
+.urn-d-urun-p {
+    font-size: 17px;
+    float: left;
+    font-weight: 400;
+}
+
+@media (max-width: 1640px) {
+    .urn-d-urun-img a {
+        height: 20rem;
+    }
+}
+
+@media (max-width: 1600px) {
+    .urn-d-urun-img a {
+        height: 33rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    .urn-d-urun-img a {
+        height: 29rem;
+    }
+}
+
+@media (max-width: 1240px) {
+    .urn-d-urun-img a {
+        height: 25rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .urn-d-urun-img a {
+        height: 20rem;
+    }
+    .urn-d-urun-b {
+        font-size: 15px;
+    }
+    .urn-d-urun-p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 850px) {
+    .urn-d-urun-img a {
+        height: 16rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .urn-d-urun-b {
+        font-size: 13px;
+    }
+    .urn-d-urun-c {
+        font-size: 1.1rem !important;
+    }
+    .urn-d-urun-p {
+        font-size: 11px;
+    }
+    header {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .urn-d-urun-c {
+        font-size: 1.3rem;
+    }
+    .urn-d-urun-p {
+        font-size: 1.3rem !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .urn-d-urun-p {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .urn-d-urun-b {
+        font-size: 12px;
+    }
+    .urn-d-urun-c {
+        font-size: 10px;
+    }
+    .urn-d-urun-p {
+        font-size: 10px;
+    }
+    .urn-d-urun-p {
+        font-size: 1rem !important;
+    }
+}
